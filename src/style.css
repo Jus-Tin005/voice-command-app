@@ -1,0 +1,25 @@
+*{
+        box-sizing: border-box;
+}
+
+body {
+        font-family: sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.form-control, .btn {
+        padding: 10px;
+}
+
+#game-container > span{
+        display: block;
+        margin-top: 15px;
+}
+
+.mic-btn {
+        margin-bottom: 5px;
+}

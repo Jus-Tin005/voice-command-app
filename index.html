@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Number Guess With Voice Command Project</title>
+        <link rel="stylesheet" href="./src/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+</head>
+<body>
+
+        <div class="container">
+                <h1>Number Guess With Voice Command</h1>
+                <p>Guess a number between 
+                        <span class="min-number">10</span> 
+                        to 
+                        <span class="max-number">100</span>
+                </p>
+                
+        </div>
+
+        <div id="game-container">
+                <input type="number" id="guess-number" class="form-control" placeholder="Guess a Number">
+                <input type="submit" id="btn" class="btn">
+                <span class="message-one">Message-1</span>
+                <span class="message-two">Message-2</span>
+        </div>
+
+        <button type="button" id="mic-btn" class="mic-btn"><i class="fas fa-microphone"></i> Use Microphone</button>
+
+
+        <div id="voice-container">
+                <!-- <span class="voice-message">Did you Say?</span> -->
+        </div>
+
+
+        <script src="./src/app.js"></script>
+</body>
+</html>
